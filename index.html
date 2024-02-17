@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Відео плеєр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Список серій</h1>
+    <select id="seriesSelect">
+      <option value="video1.mp4">Серія 1</option>
+      <option value="video2.mp4">Серія 2</option>
+      <option value="video3.mp4">Серія 3</option>
+    </select>
+    <div id="videoPlayer">
+      <video controls>
+        <source src="https://drive.google.com/file/d/1pTzu-U1u17x4P5VqwwMfOxy6C_YDwyKY/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1FlL7HQ0b6WethleD_Gf2O3BN88MCvG2x/view?usp=sharing" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
